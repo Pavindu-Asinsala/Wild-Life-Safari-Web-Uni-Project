@@ -1,0 +1,70 @@
+body{
+    background-color: #eaefd7;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px ;
+    width: 1100px;
+    border-radius: 15px;
+    margin-top: 120px;
+    margin-left: 300px;
+    margin-bottom: 75px;
+}
+
+.div1{
+    background-image: url(../images/poster3.jpg.png);
+    height: auto;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-right: rgb(45, 43, 43) dotted 5px;
+
+}
+
+.div2{
+    background-color: #9d9f96;
+    padding: 10px 70px ;
+    border-radius: 15px;
+    width: 600px;
+}
+
+.div2 h1{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.div2 form label{
+    font-size: 18px;
+}
+
+.div2 form input{
+    width: 380px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.div2 form .btn{
+    width: 120px;
+    margin-top: 20px;
+    border: 1px black solid;
+    margin-left: 15px;
+}
+
+
+
+.div2 form .btn:hover{
+    color: #fff;
+    background-color: green;
+}
+

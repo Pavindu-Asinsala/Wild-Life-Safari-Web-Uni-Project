@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --green: green;
+    --black:#130f40;
+    --lightcolor: #666;
+    --box-shadow: 0 .2rem 1rem rgba(0,0,0.1);
+    --boder : 1rem solid rgba(0,0,0.1);
+    --outline : .1rem solid rgba(0,0,0.1);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all.2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    border: 0px solid;
+    justify-content: space-between;
+    padding: 32px 9% ;
+    background: #eef58f;
+    box-shadow:var(--box-shadow);
+    z-index: 1;
+}
+
+
+.header .logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--green);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin:  0 1rem;
+    color: var(--black);
+}
+
+.header .navbar a:hover{
+    color: var(--green);
+    font-size: 2.52rem;
+}
+
+.header .icons i{
+    border: 1px solid;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color: var(--black);
+    font-size: 2rem;
+    margin-right: .3rem;
+    text-align: center;
+}
+
+.header .icons i:hover{
+    background-color: var(--green);
+    color: white;
+}
+
+.header .icons #menu{
+    display: none;
+}
+
+
+
+
+.header .shopping-cart{
+    border: 0px solid;
+    position: absolute;
+    top: 100%;
+    right: -110%;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    width: 25rem;
+    background: #eef58f;
+    align-items: center;
+
+}
+
+.header .shopping-cart.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+
+
+
+
+
+header .shopping-cart .btn1{
+    display: block;
+    margin: 1rem 0;
+    width: 200px;
+    border: 1px solid;
+    height: 4.5rem;
+    width: 20rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color: var(--black);
+    font-size: 2rem;
+    margin-right: .3rem;
+    text-align: center;
+}
+
+header .shopping-cart .btn1:hover{
+    background-color: green;
+    color: #eee;
+}

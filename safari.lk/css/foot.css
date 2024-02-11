@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300;400;500&display=swap');
+
+footer{
+    background-color: #eaefd7;
+    border-radius: 10px 10px;
+    box-shadow: 0 .1rem .9rem rgba(0,0,0.1);;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px 0 40px;
+}
+
+.box{
+    padding: 10px;
+}
+
+.box h3{
+    font-size: 2.5rem;
+    color: black;
+    padding: 1rem 0;
+}
+
+.box p{
+    line-height: 1.8;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.box i{
+    color: var(--green);
+}
+
+.box .links{
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: black;
+}
+
+.box a i{
+    padding-right: 0.5rem;
+}
+
+.box a:hover i{
+    padding-left: 1rem;
+}
+
+.box .share a {
+    border: 0px solid;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    color: black;
+    background-color: #c6c1c1;
+    text-align: center;
+}
+
+.box .share a:hover {
+    color: white;
+    background-color: green;
+}
+
+.box .email{
+    width: 250px;
+    height: 45px;
+    margin: .7rem 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #c6c1c1;
+    font-size: 1.6rem;
+    color: black;
+    text-transform: none;
+}
+
+.box .paymentimg{
+    margin-top: .2rem;
+    width: 300px;
+    height: 40px;
+}
+
+.box .social{
+    margin-top: 25px;
+}
+
+.box .logofooter{
+    color: green;
+    font-size: 2.5rem;
+}
+
+.box .btn{
+    display: block;
+    margin: 1rem 0;
+    width: 100px;
+    border: 1px solid;
+    height: 4rem;
+    width: 15rem;
+    line-height: 4rem;
+    border-radius: .5rem;
+    background: #666;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.box .btn:hover{
+    background-color: green;
+    color: #fff;
+}
+
+/*
+.greenpng{
+    width: 1788px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transform: translateX(-100px);
+    bottom: 0;
+    padding: 0;
+    margin-right: -250px;
+    align-items: center;
+    background-image: url(../images/GREEN.png);
+
+
+}*/
+
+hr{
+    background-color: rgb(171, 162, 162);
+    height: 2px;
+}
+
+.pp{
+    padding: 10px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+}

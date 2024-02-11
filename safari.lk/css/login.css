@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 2px;
+    height: 800px;
+  }
+fieldset{
+
+    padding-left: 1rem;
+    width: 400px;
+    
+    
+}
+  .container {
+    
+    border: 5px;
+    width: 300px;
+    margin: auto;
+    padding-top: 0px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .group {
+    margin-bottom: 12px;
+  }
+  
+
+  
+  input[type="text"], input[type="password"] {
+    text-align: center;
+    width: 80%;
+    padding-top: 8px;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+.btn{
+    width: 200px;
+    align-items: center;
+    
+   
+}
+  .btn:hover{
+transform: scale(1.2);
+  }
+
+  .submit{
+    margin-top: 10px;
+    border-radius: 20px;
+    
+  }
+
+  #email{
+
+    border: 4px rgba(103, 58, 183,0.7) solid;
+    border-radius: 20px;
+    padding: 10px 0 10px  ;
+    margin-top: -13px;
+  
+  }
+
+  #password{
+
+    border: 4px rgba(103, 58, 183,0.7) solid;
+    border-radius: 20px;
+    padding: 10px 0 10px  ;
+    margin-top: -13px;
+  
+  }
+  body{
+    margin:0;
+    padding:0;
+}
+
+
+.container
+{ 
+    position:absolute;
+    top:50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 350px;
+    background:url(../images/1logo.png);
+}
+
+
+
+
+.container .form_content,
+.container .login_form
+
+
+
+{
+    position: relative;
+    width: 50%;
+    height: 350%;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.container .login_form
+{
+    background: #fff;
+    height: 380px;
+    width: 50%;
+    top: -20px;
+    box-shadow: -20px 0 15px rgba(0, 0, 0, .2);
+
+}
+
+.ss{
+    margin-top: 750px;
+}
+

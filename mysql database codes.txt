@@ -1,0 +1,56 @@
+we used safarilk database and 4 table (booking,contact,faq,register).
+
+booking table for booking page
+contact table for contact page
+faq table for faq section
+register table for register page
+
+
+codes : 
+
+CREATE DATABASE safarilk;
+
+CREATE TABLE register(
+   	reg_num int AUTO_INCREMENT,
+   	First_Name varchar(50),
+	Last_Name varchar(50),
+	Address varchar(50),
+	Email varchar(50),
+	Contact varchar(50),
+	Nic varchar(50),
+	Password varchar(50),
+	Re_Password varchar(50),
+	constraint register_pk primary key (reg_num)
+
+    
+
+);
+
+CREATE TABLE booking(
+	booking_id int AUTO_INCREMENT,
+   	name varchar(50),
+   	email varchar(50),
+    	type varchar(50),
+    	date date,
+    	count int,
+	constraint booking_pk primary key (booking_id)
+
+);
+
+CREATE TABLE contact(
+	contact_id int AUTO_INCREMENT,
+   	Name varchar(30),
+   	Email varchar(30),
+    	Contact varchar(15),
+    	sub varchar(50),
+    	content varchar(50),
+	constraint contact_pk primary key (contact_id)
+
+);
+
+CREATE TABLE faq(
+	faq_id int AUTO_INCREMENT,
+   	faq varchar(300),
+	constraint faq_pk primary key (faq_id)
+);
+

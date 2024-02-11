@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    
+}
+
+.sections{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sections .cc{
+    font-size: 20px;
+    color: rgb(46, 206, 67);
+}
+
+.sections .bb:hover{
+    font-size: 20px;
+    color: rgb(46, 206, 67);
+    
+}
+
+.sections .aa:hover{
+    font-size: 20px;
+    color: rgb(46, 206, 67);
+}
+
+.sections a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.terms{
+
+    margin: 40px 80px 50px 80px;
+    line-height: 30px;
+    text-align: justify;
+    height: 3000px;
+    background-color: azure;
+    border-radius: 35px;
+    border: 3px dotted;
+    padding: 10px 40px 20px 40px;
+    font-size: 18px;
+}
+
+h1,h2,h3{
+    padding-top: 25px;
+    text-align: center;
+}
+
+span{
+    font-weight: bold;
+}

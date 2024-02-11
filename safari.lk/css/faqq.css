@@ -1,0 +1,72 @@
+.container{
+    background-color: rgb(202, 246, 164);
+    margin: 20px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#container1 {
+    margin-top: 120px;
+    text-align: center;
+    width: 500px;
+    margin-left: 550px;
+    font-size: 15px;
+    color: rgb(7, 7, 7);
+}
+
+#container1 .item1{
+    border-radius: 15px;
+    border: 3px black solid;
+    padding: 15px 0 15px 0;
+}
+
+#container2{
+
+    font-size: 15px;
+    padding: 25px;
+}
+
+.faq{
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.faq p{
+    margin-left: 25px;
+    padding-top: 10px;
+}
+
+.faq li{
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+.problem #faq-header1{
+
+    margin-bottom: 10px;
+}
+
+.problem input{
+    margin-left: 30px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.problem button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: green;
+    color: #fff;
+    margin-left: 15px;
+}
+
+
+#container3{
+    width: 600px;
+    margin-left: 550px;
+}

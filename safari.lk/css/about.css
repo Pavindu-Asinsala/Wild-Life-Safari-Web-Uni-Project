@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.sections{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 150px;
+}
+
+.sections .aa{
+    font-size: 20px;
+    color: rgb(46, 206, 67);
+}
+
+.sections .bb:hover{
+    font-size: 20px;
+    color: rgb(46, 206, 67);
+    
+}
+
+.sections .cc:hover{
+    font-size: 20px;
+    color: rgb(46, 206, 67);
+}
+
+.sections a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    height: 550px;
+    margin: 40px 80px 0 80px;
+    border-radius: 35px;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    border: gray dotted;
+    margin-bottom: 100px;
+}
+
+.firstsec img{
+    height: 450px;
+}
+
+.secondsec{
+    padding: 20px;
+    text-align: center;
+    background-color: azure;
+    border-radius: 35px;
+    
+}
+
+.secondsec h1{
+    font-size: 55px;
+    text-transform: uppercase;
+    color: rgb(46, 206, 67);
+}
+
+.secondsec p{
+    text-align: justify;
+    margin: 10px 90px ;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.secondsec a, i{
+    font-size: 25px;
+    color: rgb(132, 127, 127);
+    text-decoration: none;
+}
+
+.follow{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.secondsec i:hover{
+    font-size: 45px;
+}
+.secondsec .social-bar{
+    line-height: 0;
+    margin-right: 350px;
+}
+
+.secondsec span{
+    font-weight: bold;
+}
